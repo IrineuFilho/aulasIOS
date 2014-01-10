@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>22740864-7D14-4411-81EB-1D6438A4720F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>aula02</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>96EBD5A7-C688-492F-95D2-A37AE50EE750</key>
+		<string>https://github.com/IrineuFilho/aulasIOS.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>IOS/fds03/aula02/aula02.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>96EBD5A7-C688-492F-95D2-A37AE50EE750</key>
+		<string>../../../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/IrineuFilho/aulasIOS.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>96EBD5A7-C688-492F-95D2-A37AE50EE750</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>96EBD5A7-C688-492F-95D2-A37AE50EE750</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Pos_cesar</string>
+		</dict>
+	</array>
+</dict>
+</plist>
