@@ -27,12 +27,27 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    
+    [self.activity startAnimating];
+    
+//    NSURL *url = [NSURL URLWithString:@"http://www.google.com.br"];
+    
+    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle] pathForResource:@"index" ofType:@"html"] isDirectory:NO];
+    NSURLRequest *request = [NSURLRequest requestWithURL:url];
+    
+    [self.webview loadRequest:request];
+    [self.webview setDelegate:self];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView
+{
+    [self.activity stopAnimating];
 }
 
 @end

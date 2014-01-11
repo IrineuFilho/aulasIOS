@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface Tela02ViewController : UIViewController
+@interface Tela02ViewController : UIViewController <UIWebViewDelegate>
+@property (weak, nonatomic) IBOutlet UIWebView *webview;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activity;
 
 @end
