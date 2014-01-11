@@ -1,8 +1,8 @@
 //
 //  AppDelegate.m
-//  Storyboard
+//  Projeto_01
 //
-//  Created by Irineu Mauricio V T Filho on 10/01/14.
+//  Created by Irineu Mauricio V T Filho on 11/01/14.
 //  Copyright (c) 2014 Irineu Mauricio V T Filho. All rights reserved.
 //
 
@@ -12,7 +12,41 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+    
+    
+    Tela01ViewController *tab01 = [[Tela01ViewController alloc] init];
+    
+    UINavigationController *nav1 = [[UINavigationController alloc] init];
+    
+    [nav1 pushViewController:tab01 animated:NO];
+    nav1.tabBarItem.title = @"Primeira Tab";
+    nav1.tabBarItem.image = [UIImage imageNamed:@"tab_carros.png"];
+    
+    Tela02ViewController *tab2 = [[Tela02ViewController alloc] init];
+    
+    UINavigationController *nav2 = [[UINavigationController alloc] init];
+    
+    [nav2 pushViewController:tab2 animated:NO];
+    nav2.tabBarItem.title = @"Segunda TAB";
+    nav2.tabBarItem.image = [UIImage imageNamed:@"tab_sobre.png"];
+    
+    
+    //criando a tabbarcontroller
+    
+    UITabBarController *tabBarController = [[UITabBarController alloc] init];
+    tabBarController.viewControllers = [NSArray arrayWithObjects:nav1, nav2, nil];
+    
+    self.window.rootViewController = tabBarController;
+    
+    
+    
+    
+    [self.window makeKeyAndVisible];
+    
+    
     return YES;
 }
 

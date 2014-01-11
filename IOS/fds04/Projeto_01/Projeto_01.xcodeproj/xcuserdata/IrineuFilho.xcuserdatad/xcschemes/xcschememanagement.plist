@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Storyboard.xcscheme</key>
+		<key>Projeto_01.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>36F1D0401880C3C300897300</key>
+		<key>3656BA6718816D8C0016E782</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>36F1D06A1880C3C300897300</key>
+		<key>3656BA8218816D8C0016E782</key>
 		<dict>
 			<key>primary</key>
 			<true/>

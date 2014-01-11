@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "36F1D0401880C3C300897300"
-               BuildableName = "Storyboard.app"
-               BlueprintName = "Storyboard"
-               ReferencedContainer = "container:Storyboard.xcodeproj">
+               BlueprintIdentifier = "36F1D08A18816A1E00897300"
+               BuildableName = "Storyboard_parametros.app"
+               BlueprintName = "Storyboard_parametros"
+               ReferencedContainer = "container:Storyboard_parametros.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "36F1D06A1880C3C300897300"
-               BuildableName = "StoryboardTests.xctest"
-               BlueprintName = "StoryboardTests"
-               ReferencedContainer = "container:Storyboard.xcodeproj">
+               BlueprintIdentifier = "36F1D0B418816A1E00897300"
+               BuildableName = "Storyboard_parametrosTests.xctest"
+               BlueprintName = "Storyboard_parametrosTests"
+               ReferencedContainer = "container:Storyboard_parametros.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "36F1D0401880C3C300897300"
-            BuildableName = "Storyboard.app"
-            BlueprintName = "Storyboard"
-            ReferencedContainer = "container:Storyboard.xcodeproj">
+            BlueprintIdentifier = "36F1D08A18816A1E00897300"
+            BuildableName = "Storyboard_parametros.app"
+            BlueprintName = "Storyboard_parametros"
+            ReferencedContainer = "container:Storyboard_parametros.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "36F1D0401880C3C300897300"
-            BuildableName = "Storyboard.app"
-            BlueprintName = "Storyboard"
-            ReferencedContainer = "container:Storyboard.xcodeproj">
+            BlueprintIdentifier = "36F1D08A18816A1E00897300"
+            BuildableName = "Storyboard_parametros.app"
+            BlueprintName = "Storyboard_parametros"
+            ReferencedContainer = "container:Storyboard_parametros.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "36F1D0401880C3C300897300"
-            BuildableName = "Storyboard.app"
-            BlueprintName = "Storyboard"
-            ReferencedContainer = "container:Storyboard.xcodeproj">
+            BlueprintIdentifier = "36F1D08A18816A1E00897300"
+            BuildableName = "Storyboard_parametros.app"
+            BlueprintName = "Storyboard_parametros"
+            ReferencedContainer = "container:Storyboard_parametros.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

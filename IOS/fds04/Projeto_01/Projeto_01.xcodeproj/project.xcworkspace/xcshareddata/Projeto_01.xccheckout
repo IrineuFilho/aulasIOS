@@ -5,36 +5,36 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>CB47EAC9-DA09-4606-8413-04A8EB021D50</string>
+	<string>4DE4A79A-C396-4A5D-B3D5-44AD9D9DC329</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Storyboard</string>
+	<string>Projeto_01</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>66F70859-F39C-458A-A4A3-8F5BEDFA28AB</key>
+		<key>1343F70F-88C7-49D2-92DC-C97CCB901278</key>
 		<string>https://github.com/IrineuFilho/aulasIOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>IOS/fds04/Storyboard/Storyboard/Storyboard.xcodeproj/project.xcworkspace</string>
+	<string>IOS/fds04/Projeto_01/Projeto_01.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>66F70859-F39C-458A-A4A3-8F5BEDFA28AB</key>
-		<string>../../../../../..</string>
+		<key>1343F70F-88C7-49D2-92DC-C97CCB901278</key>
+		<string>../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/IrineuFilho/aulasIOS.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>66F70859-F39C-458A-A4A3-8F5BEDFA28AB</string>
+	<string>1343F70F-88C7-49D2-92DC-C97CCB901278</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>66F70859-F39C-458A-A4A3-8F5BEDFA28AB</string>
+			<string>1343F70F-88C7-49D2-92DC-C97CCB901278</string>
 			<key>IDESourceControlWCCName</key>
-			<string>Parametros</string>
+			<string>Pos_cesar</string>
 		</dict>
 	</array>
 </dict>
