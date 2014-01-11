@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>908200DC-EEFC-480D-9E28-85B0E5ED1681</string>
+	<string>A8D1C646-A4FD-4D5B-873F-6B074A9A3F1B</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Storyboard</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -14,11 +14,11 @@
 		<string>https://github.com/IrineuFilho/aulasIOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>IOS/fds04/Storyboard/Storyboard/Storyboard.xcodeproj/project.xcworkspace</string>
+	<string>IOS/fds04/Storyboard/Storyboard_exemplo/Storyboard/Storyboard.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>66F70859-F39C-458A-A4A3-8F5BEDFA28AB</key>
-		<string>../../../../../..</string>
+		<string>../../../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/IrineuFilho/aulasIOS.git</string>
