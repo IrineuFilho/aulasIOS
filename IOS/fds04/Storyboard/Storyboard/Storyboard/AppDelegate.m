@@ -1,31 +1,20 @@
 //
 //  AppDelegate.m
-//  Parametros
+//  Storyboard
 //
 //  Created by Irineu Mauricio V T Filho on 10/01/14.
 //  Copyright (c) 2014 Irineu Mauricio V T Filho. All rights reserved.
 //
 
 #import "AppDelegate.h"
-#import "PrimeiraTela.h"
 
 @implementation AppDelegate
-
-
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
-    
-    //adiciona a view na inicializacao do app
-    self.primeira = [[PrimeiraTela alloc] init];
-    
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:self.primeira];
-    
-    self.window.rootViewController = nav;
-    
     [self.window makeKeyAndVisible];
     return YES;
 }

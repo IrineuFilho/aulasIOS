@@ -19,6 +19,10 @@
 		36E1E8EC1880AB9C0020D811 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E1E8D41880AB9C0020D811 /* UIKit.framework */; };
 		36E1E8F41880AB9C0020D811 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 36E1E8F21880AB9C0020D811 /* InfoPlist.strings */; };
 		36E1E8F61880AB9C0020D811 /* ParametrosTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E1E8F51880AB9C0020D811 /* ParametrosTests.m */; };
+		36E1E9021880ABB70020D811 /* PrimeiraTela.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E1E9001880ABB70020D811 /* PrimeiraTela.m */; };
+		36E1E9031880ABB70020D811 /* PrimeiraTela.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36E1E9011880ABB70020D811 /* PrimeiraTela.xib */; };
+		36E1E9071880ABF00020D811 /* SegundaTela.m in Sources */ = {isa = PBXBuildFile; fileRef = 36E1E9051880ABF00020D811 /* SegundaTela.m */; };
+		36E1E9081880ABF00020D811 /* SegundaTela.xib in Resources */ = {isa = PBXBuildFile; fileRef = 36E1E9061880ABF00020D811 /* SegundaTela.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,12 @@
 		36E1E8F11880AB9C0020D811 /* ParametrosTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ParametrosTests-Info.plist"; sourceTree = "<group>"; };
 		36E1E8F31880AB9C0020D811 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		36E1E8F51880AB9C0020D811 /* ParametrosTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ParametrosTests.m; sourceTree = "<group>"; };
+		36E1E8FF1880ABB70020D811 /* PrimeiraTela.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrimeiraTela.h; sourceTree = "<group>"; };
+		36E1E9001880ABB70020D811 /* PrimeiraTela.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PrimeiraTela.m; sourceTree = "<group>"; };
+		36E1E9011880ABB70020D811 /* PrimeiraTela.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrimeiraTela.xib; sourceTree = "<group>"; };
+		36E1E9041880ABF00020D811 /* SegundaTela.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegundaTela.h; sourceTree = "<group>"; };
+		36E1E9051880ABF00020D811 /* SegundaTela.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegundaTela.m; sourceTree = "<group>"; };
+		36E1E9061880ABF00020D811 /* SegundaTela.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SegundaTela.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +87,12 @@
 		36E1E8C41880AB9C0020D811 = {
 			isa = PBXGroup;
 			children = (
+				36E1E8FF1880ABB70020D811 /* PrimeiraTela.h */,
+				36E1E9001880ABB70020D811 /* PrimeiraTela.m */,
+				36E1E9011880ABB70020D811 /* PrimeiraTela.xib */,
+				36E1E9041880ABF00020D811 /* SegundaTela.h */,
+				36E1E9051880ABF00020D811 /* SegundaTela.m */,
+				36E1E9061880ABF00020D811 /* SegundaTela.xib */,
 				36E1E8D61880AB9C0020D811 /* Parametros */,
 				36E1E8EF1880AB9C0020D811 /* ParametrosTests */,
 				36E1E8CF1880AB9C0020D811 /* Frameworks */,
@@ -220,6 +236,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				36E1E8DB1880AB9C0020D811 /* InfoPlist.strings in Resources */,
+				36E1E9081880ABF00020D811 /* SegundaTela.xib in Resources */,
+				36E1E9031880ABB70020D811 /* PrimeiraTela.xib in Resources */,
 				36E1E8E31880AB9C0020D811 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36E1E9021880ABB70020D811 /* PrimeiraTela.m in Sources */,
+				36E1E9071880ABF00020D811 /* SegundaTela.m in Sources */,
 				36E1E8E11880AB9C0020D811 /* AppDelegate.m in Sources */,
 				36E1E8DD1880AB9C0020D811 /* main.m in Sources */,
 			);

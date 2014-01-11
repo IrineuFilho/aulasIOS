@@ -5,20 +5,20 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>7679EFC7-AF06-4FFB-A321-8E94F6627D83</string>
+	<string>DC1637B2-A8FB-4E0B-9938-EFB7264DE33E</string>
 	<key>IDESourceControlProjectName</key>
-	<string>Parametros</string>
+	<string>Storyboard</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>66F70859-F39C-458A-A4A3-8F5BEDFA28AB</key>
 		<string>https://github.com/IrineuFilho/aulasIOS.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>IOS/fds04/Parametros/Parametros.xcodeproj/project.xcworkspace</string>
+	<string>IOS/fds04/Storyboard/Storyboard/Storyboard.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>66F70859-F39C-458A-A4A3-8F5BEDFA28AB</key>
-		<string>../../../../..</string>
+		<string>../../../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/IrineuFilho/aulasIOS.git</string>
