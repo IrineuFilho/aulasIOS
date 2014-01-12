@@ -29,6 +29,9 @@
 		3656BAAC188171810016E782 /* tab_sobre.png in Resources */ = {isa = PBXBuildFile; fileRef = 3656BAA7188171810016E782 /* tab_sobre.png */; };
 		3656BAAD188171810016E782 /* tab_sobre@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3656BAA8188171810016E782 /* tab_sobre@2x.png */; };
 		3656BAAF188185690016E782 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 3656BAAE188185690016E782 /* index.html */; };
+		3656BAB21881A6DD0016E782 /* Alerta.m in Sources */ = {isa = PBXBuildFile; fileRef = 3656BAB11881A6DD0016E782 /* Alerta.m */; };
+		3656BAB61881AC790016E782 /* DetalhesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3656BAB41881AC790016E782 /* DetalhesViewController.m */; };
+		3656BAB71881AC790016E782 /* DetalhesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3656BAB51881AC790016E782 /* DetalhesViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +73,11 @@
 		3656BAA7188171810016E782 /* tab_sobre.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tab_sobre.png; sourceTree = "<group>"; };
 		3656BAA8188171810016E782 /* tab_sobre@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab_sobre@2x.png"; sourceTree = "<group>"; };
 		3656BAAE188185690016E782 /* index.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
+		3656BAB01881A6DD0016E782 /* Alerta.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Alerta.h; path = Projeto_01/Alerta.h; sourceTree = "<group>"; };
+		3656BAB11881A6DD0016E782 /* Alerta.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Alerta.m; path = Projeto_01/Alerta.m; sourceTree = "<group>"; };
+		3656BAB31881AC790016E782 /* DetalhesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DetalhesViewController.h; path = Projeto_01/DetalhesViewController.h; sourceTree = "<group>"; };
+		3656BAB41881AC790016E782 /* DetalhesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DetalhesViewController.m; path = Projeto_01/DetalhesViewController.m; sourceTree = "<group>"; };
+		3656BAB51881AC790016E782 /* DetalhesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DetalhesViewController.xib; path = Projeto_01/DetalhesViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +107,11 @@
 		3656BA5F18816D8C0016E782 = {
 			isa = PBXGroup;
 			children = (
+				3656BAB31881AC790016E782 /* DetalhesViewController.h */,
+				3656BAB41881AC790016E782 /* DetalhesViewController.m */,
+				3656BAB51881AC790016E782 /* DetalhesViewController.xib */,
+				3656BAB01881A6DD0016E782 /* Alerta.h */,
+				3656BAB11881A6DD0016E782 /* Alerta.m */,
 				3656BAAE188185690016E782 /* index.html */,
 				3656BAA4188171810016E782 /* ps3-slim.jpg */,
 				3656BAA5188171810016E782 /* tab_carros.png */,
@@ -259,6 +272,7 @@
 				3656BAA318816F660016E782 /* Tela02ViewController.xib in Resources */,
 				3656BAAD188171810016E782 /* tab_sobre@2x.png in Resources */,
 				3656BAAF188185690016E782 /* index.html in Resources */,
+				3656BAB71881AC790016E782 /* DetalhesViewController.xib in Resources */,
 				3656BA7618816D8C0016E782 /* InfoPlist.strings in Resources */,
 				3656BA9E18816F550016E782 /* Tela01ViewController.xib in Resources */,
 				3656BA7E18816D8C0016E782 /* Images.xcassets in Resources */,
@@ -284,6 +298,8 @@
 				3656BAA218816F660016E782 /* Tela02ViewController.m in Sources */,
 				3656BA7C18816D8C0016E782 /* AppDelegate.m in Sources */,
 				3656BA7818816D8C0016E782 /* main.m in Sources */,
+				3656BAB21881A6DD0016E782 /* Alerta.m in Sources */,
+				3656BAB61881AC790016E782 /* DetalhesViewController.m in Sources */,
 				3656BA9D18816F550016E782 /* Tela01ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

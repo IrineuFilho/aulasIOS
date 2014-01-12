@@ -10,4 +10,6 @@
 
 @interface Alerta : NSObject
 
++(void) alerta:msg;
+
 @end

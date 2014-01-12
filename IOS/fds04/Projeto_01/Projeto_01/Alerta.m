@@ -9,5 +9,11 @@
 #import "Alerta.h"
 
 @implementation Alerta
++(void) alerta:(NSString *) msg
+{
+    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Alerta" message:msg delegate:self cancelButtonTitle:@"ok" otherButtonTitles:nil, nil];
+    
+    [alert show ];
+}
 
 @end

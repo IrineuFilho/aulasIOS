@@ -26,6 +26,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+
+    NSLog(@"DidLoad Detalhes: %@", _teste);
+    self.nomeParametro.text = _teste;
+//    self.lblDescricao.text = self.descricao;
+
     // Do any additional setup after loading the view from its nib.
 }
 

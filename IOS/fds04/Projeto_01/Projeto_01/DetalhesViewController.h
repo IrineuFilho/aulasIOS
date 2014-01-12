@@ -10,4 +10,10 @@
 
 @interface DetalhesViewController : UIViewController
 
+
+@property (weak, nonatomic) IBOutlet UILabel *nomeParametro;
+
+
+@property (strong, nonatomic) NSString *teste;
+
 @end

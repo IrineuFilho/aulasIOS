@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DetalhesViewController.h"
 
-@interface Tela01ViewController : UIViewController
+@interface Tela01ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UITableView *tableView;
+
+@property(strong, nonatomic) DetalhesViewController *detalhes;
 
 @end
